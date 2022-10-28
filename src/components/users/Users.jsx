@@ -12,7 +12,7 @@ import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
 import AddForm from "../addForms/AddForm";
 import EditForm from '../editForms/EditForm';
-import Loader from "../Loader/Loader";
+import Loader from "../loader/Loader";
 
 
 function Users() {

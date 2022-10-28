@@ -14,6 +14,7 @@ function EditFormInput({ edit, editElem, onChange, ucFirst }) {
         label={ucFirst(editElem)}
         type="text"
         fullWidth
+        multiline
         variant="outlined"
         value={edit[editElem]}
         onChange={onChange}

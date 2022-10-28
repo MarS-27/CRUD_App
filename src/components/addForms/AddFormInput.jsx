@@ -11,7 +11,8 @@ function AddFormInput({ personInfo, emptyElem, onChange, ucFirst }) {
         name={emptyElem}
         label={ucFirst(emptyElem)} 
         type="text"
-        variant="outlined"  
+        variant="outlined" 
+        multiline 
         value={personInfo[emptyElem]}
         onChange={onChange}
       />

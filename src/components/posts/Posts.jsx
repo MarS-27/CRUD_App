@@ -2,12 +2,11 @@ import React from "react";
 import usePage from "../../hooks/usePage";
 import { POSTS_PAGE, EMPTY_POST } from "../../constants";
 import AddForm from "../addForms/AddForm";
-import Button from '@mui/material/Button';
 import EditForm from '../editForms/EditForm' 
 import Box from '@mui/material/Box';
 import PostsList from "./PostsList";
 import AddButton from "../buttons/AddButton";
-import Loader from "../Loader/Loader";
+import Loader from "../loader/Loader";
 
 
 function Posts() {

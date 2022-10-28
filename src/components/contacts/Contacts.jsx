@@ -6,7 +6,7 @@ import ContactsList from "./ContactsList";
 import EditForm from '../editForms/EditForm' 
 import Box from '@mui/material/Box';
 import AddButton from "../buttons/AddButton";
-import Loader from "../Loader/Loader";
+import Loader from "../loader/Loader";
 
 function Contacts() {
   const { components,
